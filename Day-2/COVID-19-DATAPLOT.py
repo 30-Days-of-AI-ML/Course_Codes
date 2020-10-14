@@ -8,7 +8,7 @@ import plotly.express as px #calling plotly package
 import plotly.graph_objs as go #calling plotly graphs
 import matplotlib.pyplot as plt #calling matplotlib mainly 
 import seaborn as sns #support pacakge for matplotlib 
-!pip install bar_chart_race #Helping pacakge for graph colours and prientation
+#!pip install bar_chart_race #Helping pacakge for graph colours and prientation
 import bar_chart_race as bcr #calling the pkg 
 sns.set(context="notebook", palette="Spectral", style = 'darkgrid' ,font_scale = 1.5, color_codes=True) #setting colours and orientation of your notebook
 import os #connect cloud /Read files from local operating system
